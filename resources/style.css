@@ -13,10 +13,12 @@ body{
     margin: 0;
     flex-wrap: wrap;
 }
-.logo{
+.logo img{
     display: flex;
     justify-content: center;
+    width: 700px;
     height: auto;
+    margin: 0 auto;
 }
 
 .links-text{
@@ -37,6 +39,11 @@ body{
     gap: 20px;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+.links a:hover svg g{
+    transition: fill 0.3s ease;
+    fill: #703e87;
 }
 
 .block {
