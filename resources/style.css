@@ -5,6 +5,18 @@
     font-weight: normal;
 }
 
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 body{
     background-color: #1f1f1f;
     justify-content: center;
@@ -39,11 +51,16 @@ body{
     gap: 20px;
     justify-content: space-evenly;
     padding: 20px;
+    overflow: hidden;
+    position: relative;
 }
 
-.links a:hover svg g{
-    transition: fill 0.3s ease;
+.links a:hover svg g{   
+    transition: fill 0.2s ease;
     fill: #703e87;
+}
+.links a:hover svg{
+    animation: jump 0.2s ease;  
 }
 
 .block {
