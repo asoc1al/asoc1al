@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "AkiraExpanded";
+    src: url("../resources/fonts/AKIRAEXPANDED.OTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background-color: #1f1f1f;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.links-text{
+    margin-top: -60px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 30px;
+    font-family: AkiraExpanded;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.links {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.block {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.gif {
+    display: block;
+    margin: 160px auto;
+    max-width: 100%;
+}
