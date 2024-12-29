@@ -1,0 +1,26 @@
+@media (max-width: 700px){    
+    .logo{
+        margin-top: 40px;
+    }
+
+    .logo img{
+        min-width: 370px;
+    }
+
+    .links-text{
+        margin-top: -5vh;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .links a svg {   
+        width: 90%;
+        min-width: 70px;
+        height: 90%;
+        min-height: 70px; 
+    }
+
+    .gif{
+        max-width: 90%;
+    }
+}

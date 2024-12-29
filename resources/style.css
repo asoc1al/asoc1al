@@ -17,6 +17,11 @@
     }
 }
 
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #1f1f1f;
     justify-content: center;
@@ -25,10 +30,12 @@ body{
     margin: 0;
     flex-wrap: wrap;
 }
+
 .logo img{
     display: flex;
     justify-content: center;
-    width: 700px;
+    max-width: 40%;
+    min-width: 500px;
     height: auto;
     margin: 0 auto;
 }
@@ -46,7 +53,7 @@ body{
 
 .links {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 2vh auto;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
@@ -71,6 +78,23 @@ body{
 
 .gif {
     display: block;
-    margin: 160px auto;
+    margin: 0px auto;
+    margin-top: 10vh;
     max-width: 100%;
+}
+
+.devider-top{
+    background-color: white;
+    height: 1px;
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.devider-bottom{
+    background-color: white;
+    height: 1px;
+    width: 40%;
+    max-width: 500px;
+    margin: 0 auto;
 }
